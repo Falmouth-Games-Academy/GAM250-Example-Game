@@ -2,6 +2,7 @@
 using System.Collections;
 
 [RequireComponent(typeof(PolygonCollider2D))]
+[RequireComponent(typeof(AudioSource))]
 public class PlayerController : MonoBehaviour {
 
     public float movementSpeed = 2.0f;
@@ -15,10 +16,14 @@ public class PlayerController : MonoBehaviour {
 
     public GameObject bulletPrefab;
     public GameObject bulletSpawnPoint;
+    public AudioSource audioSource;
+
+    public AudioClip laserSound;
 
     // Use this for initialization
     void Start () {
         playerCollider = GetComponent<PolygonCollider2D>();
+        audioSource = GetComponent<AudioSource>();
 
     }
 	
@@ -51,6 +56,7 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetButtonDown("Fire1"))
         {
             Instantiate(bulletPrefab, bulletSpawnPoint.transform.position,Quaternion.identity);
+            audioSource.PlayOneShot(laserSound);
         }
 	}
 }

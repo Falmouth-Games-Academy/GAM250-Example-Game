@@ -44,7 +44,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4000010858163620
 Transform:
   m_ObjectHideFlags: 1
@@ -138,6 +138,10 @@ MonoBehaviour:
   topScreenBounds: {fileID: 0}
   bottomScreenBounds: {fileID: 0}
   playerCollider: {fileID: 0}
+  bulletPrefab: {fileID: 0}
+  bulletSpawnPoint: {fileID: 0}
+  audioSource: {fileID: 0}
+  laserSound: {fileID: 0}
 --- !u!212 &212000011915847432
 SpriteRenderer:
   m_ObjectHideFlags: 1

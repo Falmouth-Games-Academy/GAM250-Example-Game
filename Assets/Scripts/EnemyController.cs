@@ -22,9 +22,17 @@ public class EnemyController : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Bullet") || collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
+
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            GameObject playerManagerGO = GameObject.Find("PlayerManager");
+            PlayerManager playerMananger = playerManagerGO.GetComponent<PlayerManager>();
+            playerMananger.PlayerHit();
             Destroy(gameObject);
         }
     }
