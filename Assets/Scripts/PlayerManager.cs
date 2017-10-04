@@ -4,6 +4,7 @@ using System.Collections;
 public class PlayerManager : MonoBehaviour {
 
     public int currentLives = 3;
+    public int currentScore = 0;
 
     public GameObject explosionPrefab;
     public GameObject player;
@@ -33,5 +34,10 @@ public class PlayerManager : MonoBehaviour {
     {
         player.SetActive(true);
         Destroy(currentExplosion);
+    }
+
+    public void AddScore(int score)
+    {
+        currentScore += score;
     }
 }

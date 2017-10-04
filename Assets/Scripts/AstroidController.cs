@@ -21,6 +21,9 @@ public class AstroidController : MonoBehaviour {
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
+            GameObject playerManagerGO = GameObject.Find("PlayerManager");
+            PlayerManager playerMananger = playerManagerGO.GetComponent<PlayerManager>();
+            playerMananger.AddScore(1);
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
