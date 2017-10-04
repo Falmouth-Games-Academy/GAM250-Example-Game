@@ -1,10 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerManager : MonoBehaviour {
+[System.Serializable]
+public class PlayerData:EventData
+{
+    public int currentLives;
+    public int currentScore;
+}
 
-    public int currentLives = 3;
-    public int currentScore = 0;
+public class PlayerManager : Subject {
+
+    public PlayerData playerData = new PlayerData();
 
     public GameObject explosionPrefab;
     public GameObject player;
@@ -13,11 +19,14 @@ public class PlayerManager : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
+        //Attach any observers
+        AddObserver(GameObject.Find("GameUI").GetComponent<PlayerUI>());
+        Notify(playerData);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (currentLives<0)
+        if (playerData.currentLives < 0)
         {
             //end game
         }
@@ -25,9 +34,10 @@ public class PlayerManager : MonoBehaviour {
 
     public void PlayerHit()
     {
-        currentLives--;
+        playerData.currentLives--;
         player.SetActive(false);
         currentExplosion=(GameObject)Instantiate(explosionPrefab, player.transform.position, Quaternion.identity);
+        Notify(playerData);
     }
 
     public void ShowPlayer()
@@ -38,6 +48,7 @@ public class PlayerManager : MonoBehaviour {
 
     public void AddScore(int score)
     {
-        currentScore += score;
+        playerData.currentScore += score;
+        Notify(playerData);
     }
 }
