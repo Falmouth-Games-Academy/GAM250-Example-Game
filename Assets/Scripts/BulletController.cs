@@ -7,8 +7,10 @@ public class BulletController : MonoBehaviour {
 
     Rigidbody2D bulletRigidBody;
 
-    public float speed=1.0f;
-    public Vector2 direction=Vector2.up;
+    [SerializeField]
+    float speed=1.0f;
+    [SerializeField]
+    Vector2 direction=Vector2.up;
 
 	// Use this for initialization
 	void Start ()

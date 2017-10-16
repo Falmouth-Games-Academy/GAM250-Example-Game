@@ -3,15 +3,22 @@ using System.Collections;
 
 public class SpawnManager : MonoBehaviour {
 
-    public GameObject astroidPrefab;
-    public float astroidTime;
-    public float astroidCoolDown=5.0f;
+    [SerializeField]
+    GameObject astroidPrefab;
 
-    public GameObject enemyPrefab;
-    public float enemyTime;
-    public float enemyCoolDown=5.0f;
+    [SerializeField]
+    float astroidTime;
+    [SerializeField]
+    float astroidCoolDown=5.0f;
 
-    public Transform[] spawnPoints;
+    [SerializeField]
+    GameObject enemyPrefab;
+    [SerializeField]
+    float enemyTime;
+    [SerializeField]
+    float enemyCoolDown=5.0f;
+    [SerializeField]
+    Transform[] spawnPoints;
 
     // Update is called once per frame
     void Update() {
@@ -36,15 +43,15 @@ public class SpawnManager : MonoBehaviour {
                 EnemyController enemyController = obj.GetComponent<EnemyController>();
                 if (currentSpawn==0)
                 {
-                    enemyController.direction = new Vector2(0.5f, -1.0f);
+                    enemyController.SetDirection(new Vector2(0.5f, -1.0f));
                 }
                 else if (currentSpawn==1)
                 {
-                    enemyController.direction = new Vector2(0.0f, -1.0f);
+                    enemyController.SetDirection(new Vector2(0.0f, -1.0f));
                 }
                 else if (currentSpawn==2)
                 {
-                    enemyController.direction = new Vector2(-0.5f, -1.0f);
+                    enemyController.SetDirection(new Vector2(-0.5f, -1.0f));
                 }
                 enemyController.Move();
                 enemyCoolDown = 5.0f;

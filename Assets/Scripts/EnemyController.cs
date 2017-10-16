@@ -5,7 +5,9 @@ using System.Collections;
 [RequireComponent(typeof(CircleCollider2D))]
 public class EnemyController : MonoBehaviour {
 
-    public Vector2 direction = Vector2.down;
+    [SerializeField]
+    Vector2 direction = Vector2.down;
+    [SerializeField]
     float speed = 6.0f;
 
     Rigidbody2D body;
@@ -18,6 +20,11 @@ public class EnemyController : MonoBehaviour {
     {
         body = GetComponent<Rigidbody2D>();
         body.velocity = direction * speed;
+    }
+
+    public void SetDirection(Vector2 dir)
+    {
+        direction = dir;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

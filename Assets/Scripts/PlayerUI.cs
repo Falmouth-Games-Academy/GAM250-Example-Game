@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 public class PlayerUI : MonoBehaviour,Observer {
 
-    public Text playerScoreTxt;
-    public Text playerLivesTxt;
+    [SerializeField]
+    Text playerScoreTxt;
+    [SerializeField]
+    Text playerLivesTxt;
 
     public void OnNotify(EventData data)
     {

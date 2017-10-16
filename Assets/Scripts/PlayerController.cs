@@ -5,20 +5,33 @@ using System.Collections;
 [RequireComponent(typeof(AudioSource))]
 public class PlayerController : MonoBehaviour {
 
-    public float movementSpeed = 2.0f;
+    [SerializeField]
+    [Range(2.0f,10.0f)]
+    float movementSpeed = 2.0f;
 
-    public Collider2D leftScreenBounds;
-    public Collider2D rightScreenBounds;
-    public Collider2D topScreenBounds;
-    public Collider2D bottomScreenBounds;
+    [Header("Bounds")]
+    [SerializeField]
+    Collider2D leftScreenBounds;
+    [SerializeField]
+    Collider2D rightScreenBounds;
+    [SerializeField]
+    Collider2D topScreenBounds;
+    [SerializeField]
+    Collider2D bottomScreenBounds;
 
-    public Collider2D playerCollider;
+    Collider2D playerCollider;
 
-    public GameObject bulletPrefab;
-    public GameObject bulletSpawnPoint;
-    public AudioSource audioSource;
+    [Header("Bullets")]
+    [SerializeField]
+    GameObject bulletPrefab;
+    [SerializeField]
+    GameObject bulletSpawnPoint;
 
-    public AudioClip laserSound;
+    [Header("Sounds")]
+    [SerializeField]
+    AudioSource audioSource;
+    [SerializeField]
+    AudioClip laserSound;
 
     // Use this for initialization
     void Start () {

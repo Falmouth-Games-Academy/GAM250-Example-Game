@@ -5,7 +5,10 @@ using System.Collections;
 [RequireComponent(typeof(PolygonCollider2D))]
 public class AstroidController : MonoBehaviour {
 
+    [SerializeField]
     Vector2 direction=Vector2.down;
+
+    [SerializeField]
     float speed = 6.0f;
 
     Rigidbody2D body;

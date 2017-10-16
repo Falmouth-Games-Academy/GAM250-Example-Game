@@ -10,11 +10,14 @@ public class PlayerData:EventData
 
 public class PlayerManager : Subject {
 
-    public PlayerData playerData = new PlayerData();
-
-    public GameObject explosionPrefab;
-    public GameObject player;
-    public GameObject currentExplosion;
+    [SerializeField]
+    PlayerData playerData = new PlayerData();
+    [SerializeField]
+    GameObject explosionPrefab;
+    [SerializeField]
+    GameObject player;
+    [SerializeField]
+    GameObject currentExplosion;
 
 	// Use this for initialization
 	void Start ()

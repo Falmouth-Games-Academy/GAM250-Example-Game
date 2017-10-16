@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 
 public class Subject:MonoBehaviour{
-    public List<Observer> observers = new List<Observer>();
+    [SerializeField]
+    List<Observer> observers = new List<Observer>();
 
     public void Notify(EventData data)
     {
