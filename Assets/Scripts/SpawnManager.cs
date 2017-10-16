@@ -1,64 +1,62 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
-public class SpawnManager : MonoBehaviour {
+[CreateAssetMenu(fileName ="SpawnData",menuName ="GAM250/Example/Spawn",order =1)]
+public class SpawnData:ScriptableObject
+{
+    [SerializeField]
+    public GameObject prefab;
+    [SerializeField]
+    public float coolDown;
+    [SerializeField]
+    public int amountToSpawn;
+}
+
+public class SpawnManager : MonoBehaviour
+{
 
     [SerializeField]
-    GameObject astroidPrefab;
+    List<SpawnData> spawnData = new List<SpawnData>();
 
     [SerializeField]
-    float astroidTime;
-    [SerializeField]
-    float astroidCoolDown=5.0f;
+    bool loopSpawning = false;
 
-    [SerializeField]
-    GameObject enemyPrefab;
-    [SerializeField]
-    float enemyTime;
-    [SerializeField]
-    float enemyCoolDown=5.0f;
+    int currentSpawnIndex = 0;
+
     [SerializeField]
     Transform[] spawnPoints;
 
+    bool spawnDone = false;
+    int currentSpawnCount = 0;
+
     // Update is called once per frame
-    void Update() {
-        if (Time.timeSinceLevelLoad < astroidTime)
+    void Update()
+    {
+        if (spawnData.Count > 0 && !spawnDone)
         {
-            if (astroidCoolDown < 0.1f)
+            SpawnData currentSpawnData = spawnData[currentSpawnIndex];
+            if (currentSpawnData.amountToSpawn>currentSpawnCount)
             {
-                Transform currentSpawnPoint = spawnPoints[Random.Range(0, 2)];
-                Instantiate(astroidPrefab, currentSpawnPoint.position, Quaternion.identity);
-                astroidCoolDown = 5.0f;
+                currentSpawnIndex++;
+                currentSpawnCount = 0;
+                if (loopSpawning && currentSpawnIndex>spawnData.Count)
+                {
+                    currentSpawnIndex = 0;
+                }   
+                else
+                {
+                    spawnDone = true;
+                }
+
+                Spawn(currentSpawnData);
             }
-
-            astroidCoolDown -= Time.deltaTime;
         }
-        else if (Time.timeSinceLevelLoad > astroidTime && Time.timeSinceLevelLoad < enemyTime)
-        {
-            if (enemyCoolDown<0.1f)
-            {
-                int currentSpawn = Random.Range(0, 2);
-                Transform currentSpawnPoint = spawnPoints[currentSpawn];
-                GameObject obj=(GameObject)Instantiate(enemyPrefab, currentSpawnPoint.position, Quaternion.identity);
-                EnemyController enemyController = obj.GetComponent<EnemyController>();
-                if (currentSpawn==0)
-                {
-                    enemyController.SetDirection(new Vector2(0.5f, -1.0f));
-                }
-                else if (currentSpawn==1)
-                {
-                    enemyController.SetDirection(new Vector2(0.0f, -1.0f));
-                }
-                else if (currentSpawn==2)
-                {
-                    enemyController.SetDirection(new Vector2(-0.5f, -1.0f));
-                }
-                enemyController.Move();
-                enemyCoolDown = 5.0f;
-            }
+    }
 
-            enemyCoolDown -= Time.deltaTime;
-        }
-
-	}
+    void Spawn(SpawnData spawnData)
+    {
+        Instantiate(spawnData.prefab, spawnPoints[Random.Range(0, spawnPoints.Length - 1)]);
+        currentSpawnCount++;
+    }
 }
