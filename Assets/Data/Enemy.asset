@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: Enemy
   m_EditorClassIdentifier: Assembly-CSharp::SpawnData
   prefab: {fileID: 1000011380628060, guid: 540d236b59e04924aae27d481d0c7f3b, type: 2}
-  coolDown: 0.4
-  amountToSpawn: 0
+  coolDown: 7
+  amountToSpawn: 2

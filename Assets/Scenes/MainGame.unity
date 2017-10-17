@@ -323,10 +323,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ff2194ccf30e4e7469755785b93b261a, type: 2}
   - {fileID: 11400000, guid: 1b8881bbab82b9f4d8125fa945b261a7, type: 2}
   loopSpawning: 1
+  currentSpawnIndex: 0
   spawnPoints:
   - {fileID: 1997711194}
   - {fileID: 250962125}
   - {fileID: 516442409}
+  spawnDone: 0
+  currentSpawnCount: 0
+  currentCoolDown: 0
 --- !u!4 &546312679
 Transform:
   m_ObjectHideFlags: 0

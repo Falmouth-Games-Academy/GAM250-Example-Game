@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: Astroid
   m_EditorClassIdentifier: Assembly-CSharp::SpawnData
   prefab: {fileID: 1000010224363184, guid: 9f3b543b253364546b70b6ecfea50d81, type: 2}
-  coolDown: 0.3
-  amountToSpawn: 10
+  coolDown: 5
+  amountToSpawn: 2
