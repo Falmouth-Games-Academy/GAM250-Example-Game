@@ -56,7 +56,7 @@ public class SpawnManager : MonoBehaviour
 
     void Spawn(SpawnData spawnData)
     {
-        Instantiate(spawnData.prefab, spawnPoints[Random.Range(0, spawnPoints.Length - 1)]);
+        GameObject obj=(GameObject)Instantiate(spawnData.prefab, spawnPoints[Random.Range(0, spawnPoints.Length - 1)]);
         currentSpawnCount++;
     }
 }
