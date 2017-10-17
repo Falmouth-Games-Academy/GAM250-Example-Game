@@ -13,7 +13,7 @@ public class EnemyController : MonoBehaviour {
     Rigidbody2D body;
     // Use this for initialization
     void Start () {
-        
+        Move();
     }
 
     public void Move()

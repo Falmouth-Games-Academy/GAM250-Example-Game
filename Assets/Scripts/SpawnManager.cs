@@ -22,13 +22,20 @@ public class SpawnManager : MonoBehaviour
     [SerializeField]
     bool loopSpawning = false;
 
-    int currentSpawnIndex = 0;
+    public int currentSpawnIndex = 0;
 
     [SerializeField]
     Transform[] spawnPoints;
 
-    bool spawnDone = false;
-    int currentSpawnCount = 0;
+    public bool spawnDone = false;
+    public int currentSpawnCount = 0;
+    public float currentCoolDown;
+
+    void Start()
+    {
+        SpawnData currentSpawnData = spawnData[currentSpawnIndex];
+        currentCoolDown = currentSpawnData.coolDown;
+    }
 
     // Update is called once per frame
     void Update()
@@ -36,21 +43,25 @@ public class SpawnManager : MonoBehaviour
         if (spawnData.Count > 0 && !spawnDone)
         {
             SpawnData currentSpawnData = spawnData[currentSpawnIndex];
-            if (currentSpawnData.amountToSpawn>currentSpawnCount)
+            if (currentSpawnCount>currentSpawnData.amountToSpawn)
             {
                 currentSpawnIndex++;
                 currentSpawnCount = 0;
-                if (loopSpawning && currentSpawnIndex>spawnData.Count)
+                if (loopSpawning && currentSpawnIndex>spawnData.Count-1)
                 {
                     currentSpawnIndex = 0;
+                    currentCoolDown = spawnData[currentSpawnIndex].coolDown;
                 }   
-                else
+                else if (!loopSpawning)
                 {
                     spawnDone = true;
                 }
-
-                Spawn(currentSpawnData);
             }
+
+            if (currentCoolDown < 0.0f)
+                Spawn(currentSpawnData);
+            else
+                currentCoolDown -= Time.deltaTime;
         }
     }
 
@@ -58,5 +69,6 @@ public class SpawnManager : MonoBehaviour
     {
         Instantiate(spawnData.prefab, spawnPoints[Random.Range(0, spawnPoints.Length - 1)]);
         currentSpawnCount++;
+        currentCoolDown = spawnData.coolDown;
     }
 }
