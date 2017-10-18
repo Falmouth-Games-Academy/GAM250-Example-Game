@@ -6,6 +6,7 @@ public class PlayerData:EventData
 {
     public int currentLives;
     public int currentScore;
+
 }
 
 public class PlayerManager : Subject {

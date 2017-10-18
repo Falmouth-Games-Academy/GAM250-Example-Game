@@ -321,7 +321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnData:
   - {fileID: 11400000, guid: ff2194ccf30e4e7469755785b93b261a, type: 2}
-  - {fileID: 11400000, guid: 1b8881bbab82b9f4d8125fa945b261a7, type: 2}
+  - {fileID: 11400000, guid: ff2194ccf30e4e7469755785b93b261a, type: 2}
   loopSpawning: 1
   spawnPoints:
   - {fileID: 1997711194}
@@ -623,6 +623,26 @@ Prefab:
       propertyPath: movementSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114000011318849610, guid: c020d0e398a9c7e48931f0970b09276c,
+        type: 2}
+      propertyPath: bounds.leftScreenBounds
+      value: 
+      objectReference: {fileID: 255227131}
+    - target: {fileID: 114000011318849610, guid: c020d0e398a9c7e48931f0970b09276c,
+        type: 2}
+      propertyPath: bounds.topScreenBounds
+      value: 
+      objectReference: {fileID: 749389841}
+    - target: {fileID: 114000011318849610, guid: c020d0e398a9c7e48931f0970b09276c,
+        type: 2}
+      propertyPath: bounds.rightScreenBounds
+      value: 
+      objectReference: {fileID: 1140507889}
+    - target: {fileID: 114000011318849610, guid: c020d0e398a9c7e48931f0970b09276c,
+        type: 2}
+      propertyPath: bounds.bottomScreenBounds
+      value: 
+      objectReference: {fileID: 1063069794}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c020d0e398a9c7e48931f0970b09276c, type: 2}
   m_IsPrefabParent: 0

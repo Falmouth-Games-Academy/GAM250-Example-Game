@@ -8,9 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: Astroid
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnData
+  m_Script: {fileID: 11500000, guid: 711dcb1f1be13084592ef782a03908f0, type: 3}
+  m_Name: astroid
+  m_EditorClassIdentifier: 
   prefab: {fileID: 1000010224363184, guid: 9f3b543b253364546b70b6ecfea50d81, type: 2}
-  coolDown: 0.3
+  coolDown: 2
   amountToSpawn: 10
