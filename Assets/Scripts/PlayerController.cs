@@ -1,5 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
+
+[Serializable]
+public class GameBounds
+{
+    public Collider2D leftScreenBounds;
+    public Collider2D rightScreenBounds;
+    public Collider2D topScreenBounds;
+    public Collider2D bottomScreenBounds;
+}
 
 [RequireComponent(typeof(PolygonCollider2D))]
 [RequireComponent(typeof(AudioSource))]
@@ -9,15 +19,12 @@ public class PlayerController : MonoBehaviour {
     [Range(2.0f,10.0f)]
     float movementSpeed = 2.0f;
 
+    [SerializeField]
+    Vector2 direction;
+
     [Header("Bounds")]
     [SerializeField]
-    Collider2D leftScreenBounds;
-    [SerializeField]
-    Collider2D rightScreenBounds;
-    [SerializeField]
-    Collider2D topScreenBounds;
-    [SerializeField]
-    Collider2D bottomScreenBounds;
+    GameBounds bounds;
 
     Collider2D playerCollider;
 
@@ -45,19 +52,19 @@ public class PlayerController : MonoBehaviour {
         Vector2 moveAxis = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         Vector2 moveDelta = moveAxis * movementSpeed * Time.deltaTime;
         
-        if ( (leftScreenBounds.bounds.Intersects(playerCollider.bounds)))
+        if ( (bounds.leftScreenBounds.bounds.Intersects(playerCollider.bounds)))
         {
             transform.Translate(-0.1f, 0.0f, 0.0f);
         }
-        else if (rightScreenBounds.bounds.Intersects(playerCollider.bounds))
+        else if (bounds.rightScreenBounds.bounds.Intersects(playerCollider.bounds))
         {
             transform.Translate(0.1f, 0.0f, 0.0f);
         }
-        else if (topScreenBounds.bounds.Intersects(playerCollider.bounds))
+        else if (bounds.topScreenBounds.bounds.Intersects(playerCollider.bounds))
         {
             transform.Translate(0.0f, -0.1f, 0.0f);
         }
-        else if (bottomScreenBounds.bounds.Intersects(playerCollider.bounds))
+        else if (bounds.bottomScreenBounds.bounds.Intersects(playerCollider.bounds))
         {
             transform.Translate(0.0f, 0.1f, 0.0f);
         }
