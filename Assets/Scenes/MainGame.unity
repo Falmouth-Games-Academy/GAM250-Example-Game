@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -777,8 +777,10 @@ MonoBehaviour:
   m_Color: 0
   m_HideScript: 1
   m_Position: {x: 40, y: 70}
-  m_Transitions: []
-  m_CachedInstanceID: -524950
+  m_Transitions:
+  - m_Destination: {fileID: 736912203}
+    m_EventID: 969008187
+  m_CachedInstanceID: 37828
   Waypoints:
   - {fileID: 442683485}
   - {fileID: 1997947640}
@@ -822,8 +824,10 @@ MonoBehaviour:
   m_Color: 0
   m_HideScript: 1
   m_Position: {x: 370, y: 80}
-  m_Transitions: []
-  m_CachedInstanceID: -519204
+  m_Transitions:
+  - m_Destination: {fileID: 736912201}
+    m_EventID: 414553820
+  m_CachedInstanceID: 37832
   bulletPrefab: {fileID: 1000012754407144, guid: 4f93878f0952a164a9d6560d4725399c,
     type: 2}
   bulletSpawns:
@@ -849,7 +853,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: -263794
+  m_CachedInstanceID: 37834
   m_Description: 
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -867,12 +871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 634db10235c0241d6ad43433a106016d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FloatVars:
-  - m_ID: 9438880
-    m_Name: PlayerRange
-    m_Blackboard: {fileID: 736912205}
-    m_IsConstant: 0
-    value: 0
+  m_FloatVars: []
   m_IntVars: []
   m_BoolVars: []
   m_StringVars: []
@@ -886,7 +885,17 @@ MonoBehaviour:
   m_ObjectVars: []
   m_DynamicLists: []
   m_FsmEvents: []
-  m_ConcreteFsmEvents: []
+  m_ConcreteFsmEvents:
+  - m_ID: 969008187
+    m_Name: PlayerInRange
+    m_Blackboard: {fileID: 736912205}
+    m_IsConstant: 0
+    m_IsSystem: 0
+  - m_ID: 414553820
+    m_Name: PlayerOutOfRange
+    m_Blackboard: {fileID: 736912205}
+    m_IsConstant: 0
+    m_IsSystem: 0
   m_Namespace: 
 --- !u!114 &736912206
 MonoBehaviour:
@@ -900,8 +909,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  bulletPrefab: {fileID: 0}
-  bulletSpawns: []
+  bossBlackboard: {fileID: 0}
+  detectionRange: 15
 --- !u!1 &749389839
 GameObject:
   m_ObjectHideFlags: 0
