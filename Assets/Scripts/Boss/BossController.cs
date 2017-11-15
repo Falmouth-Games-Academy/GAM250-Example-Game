@@ -10,9 +10,6 @@ public class BossController : MonoBehaviour {
 
     public float detectionRange = 5.0f;
 
-    //public GameObject bulletPrefab;
-    //public Transform[] bulletSpawns;
-
 	// Use this for initialization
 	void Start () {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -35,18 +32,5 @@ public class BossController : MonoBehaviour {
         {
             bossBlackboard.SendEvent("PlayerOutOfRange");
         }
-
-        //if (Time.timeSinceLevelLoad%2==0)
-        //{
-        //    Fire();
-        //}
     }
-
-    //void Fire()
-    //{
-    //    foreach(Transform bulletSpawn in bulletSpawns)
-     //   {
-      //      Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.transform.rotation);
-       // }
-    //}
 }
