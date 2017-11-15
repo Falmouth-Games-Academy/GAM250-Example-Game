@@ -13,6 +13,7 @@ public class BulletController : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
+        direction = transform.up;
         bulletRigidBody = GetComponent<Rigidbody2D>();
         bulletRigidBody.velocity = direction * speed;
     }
