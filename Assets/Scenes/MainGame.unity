@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -694,8 +694,9 @@ GameObject:
   - component: {fileID: 736912205}
   - component: {fileID: 736912204}
   - component: {fileID: 736912206}
-  - component: {fileID: 736912203}
   - component: {fileID: 736912201}
+  - component: {fileID: 736912203}
+  - component: {fileID: 736912207}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -776,11 +777,11 @@ MonoBehaviour:
   m_StateName: Patrol
   m_Color: 0
   m_HideScript: 1
-  m_Position: {x: 40, y: 70}
+  m_Position: {x: 60, y: 40}
   m_Transitions:
-  - m_Destination: {fileID: 736912203}
-    m_EventID: 969008187
-  m_CachedInstanceID: 37828
+  - m_Destination: {fileID: 736912207}
+    m_EventID: 2035501836
+  m_CachedInstanceID: -21698
   Waypoints:
   - {fileID: 442683485}
   - {fileID: 1997947640}
@@ -823,11 +824,9 @@ MonoBehaviour:
   m_StateName: Fire
   m_Color: 0
   m_HideScript: 1
-  m_Position: {x: 370, y: 80}
-  m_Transitions:
-  - m_Destination: {fileID: 736912201}
-    m_EventID: 414553820
-  m_CachedInstanceID: 37832
+  m_Position: {x: 370, y: 70}
+  m_Transitions: []
+  m_CachedInstanceID: -25306
   bulletPrefab: {fileID: 1000012754407144, guid: 4f93878f0952a164a9d6560d4725399c,
     type: 2}
   bulletSpawns:
@@ -853,7 +852,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 37834
+  m_CachedInstanceID: 19374
   m_Description: 
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -886,12 +885,12 @@ MonoBehaviour:
   m_DynamicLists: []
   m_FsmEvents: []
   m_ConcreteFsmEvents:
-  - m_ID: 969008187
+  - m_ID: 2035501836
     m_Name: PlayerInRange
     m_Blackboard: {fileID: 736912205}
     m_IsConstant: 0
     m_IsSystem: 0
-  - m_ID: 414553820
+  - m_ID: 1674904941
     m_Name: PlayerOutOfRange
     m_Blackboard: {fileID: 736912205}
     m_IsConstant: 0
@@ -911,6 +910,28 @@ MonoBehaviour:
   player: {fileID: 0}
   bossBlackboard: {fileID: 0}
   detectionRange: 15
+--- !u!114 &736912207
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 736912198}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fe8a81bbc8568c458e244e88ee2501f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Blackboard: {fileID: 736912205}
+  m_Parent: {fileID: 736912204}
+  m_StateName: Chase
+  m_Color: 0
+  m_HideScript: 1
+  m_Position: {x: 210, y: 210}
+  m_Transitions: []
+  m_CachedInstanceID: -60490
+  player: {fileID: 1128348125}
+  boss: {fileID: 736912198}
+  characterController: {fileID: 736912202}
 --- !u!1 &749389839
 GameObject:
   m_ObjectHideFlags: 0
