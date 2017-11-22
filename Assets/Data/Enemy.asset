@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 711dcb1f1be13084592ef782a03908f0, type: 3}
-  m_Name: enemy
+  m_Name: Enemy
   m_EditorClassIdentifier: 
   prefab: {fileID: 1000011380628060, guid: 540d236b59e04924aae27d481d0c7f3b, type: 2}
   coolDown: 5

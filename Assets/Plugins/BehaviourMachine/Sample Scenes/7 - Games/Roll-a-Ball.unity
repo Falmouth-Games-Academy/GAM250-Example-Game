@@ -380,7 +380,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21204
+  m_CachedInstanceID: 23952
   m_Description: Rotates the object over time.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -597,7 +597,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21222
+  m_CachedInstanceID: 23970
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -1219,7 +1219,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21260
+  m_CachedInstanceID: 24008
   m_Description: Rotates the object over time.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -1469,7 +1469,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21282
+  m_CachedInstanceID: 24030
   m_Description: Rotates the object over time.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -1852,7 +1852,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1038336620}
     m_EventID: -10
-  m_CachedInstanceID: 21310
+  m_CachedInstanceID: 24058
   countText: {fileID: 194893356}
   winText: {fileID: 1603524506}
 --- !u!82 &1038336611
@@ -1955,7 +1955,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1038336610}
     m_EventID: -10
-  m_CachedInstanceID: 21314
+  m_CachedInstanceID: 24062
 --- !u!114 &1038336613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1974,7 +1974,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21316
+  m_CachedInstanceID: 24064
   m_Description: Move the player. If it goes through a PickUp object then takes it.
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -2113,7 +2113,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1038336612}
     m_EventID: -17
-  m_CachedInstanceID: 21330
+  m_CachedInstanceID: 24078
   speed: 500
 --- !u!1 &1233277846
 GameObject:
@@ -2168,7 +2168,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21336
+  m_CachedInstanceID: 24084
   m_Description: Rotates the object over time.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -2366,7 +2366,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21352
+  m_CachedInstanceID: 24100
   m_Description: Rotates the object over time.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -2564,7 +2564,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21368
+  m_CachedInstanceID: 24116
   m_Description: Rotates the object over time.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -2993,7 +2993,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21408
+  m_CachedInstanceID: 24156
   m_Description: Rotates the object over time.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -3248,7 +3248,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21428
+  m_CachedInstanceID: 24176
   m_Description: Follows the Player position. The variable Offset is the relative
     distance between the Player and the Ball.
   m_IgnoreTimeScale: 0
@@ -3431,7 +3431,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21436
+  m_CachedInstanceID: 24184
   m_Description: Restart the game on left mouse click.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -3593,7 +3593,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21446
+  m_CachedInstanceID: 24194
   m_Description: Rotates the object over time.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -3926,7 +3926,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21478
+  m_CachedInstanceID: 24226
   m_Description: Restart the game on left mouse click.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -4067,7 +4067,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21486
+  m_CachedInstanceID: 24234
   m_Description: Rotates the object over time.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -4337,7 +4337,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1675046662}
     m_EventID: -17
-  m_CachedInstanceID: 21510
+  m_CachedInstanceID: 24258
   m_Description: Moves the Player using the Vertical and Horizontal axes.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -4464,7 +4464,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21514
+  m_CachedInstanceID: 24262
   m_Description: Move the player. If it goes through a PickUp object then takes it.
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -4491,7 +4491,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1675046658}
     m_EventID: -10
-  m_CachedInstanceID: 21516
+  m_CachedInstanceID: 24264
   m_Description: Updates the GUIText using the Count variable. If Count is greater
     or equals to 12 then prints "YOU WIN!".
   m_IgnoreTimeScale: 0
@@ -4590,7 +4590,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1675046661}
     m_EventID: -10
-  m_CachedInstanceID: 21518
+  m_CachedInstanceID: 24266
   m_Description: If the object on the trigger has the Tag Finish then set it inactive
     and adds 1 to the Count variable.
   m_IgnoreTimeScale: 0
@@ -5031,7 +5031,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21538
+  m_CachedInstanceID: 24286
   m_Description: Rotates the object over time.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -5229,7 +5229,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21554
+  m_CachedInstanceID: 24302
   m_Description: Rotates the object over time.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -5557,7 +5557,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21582
+  m_CachedInstanceID: 24330
   m_Description: Rotates the object over time.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1

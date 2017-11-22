@@ -371,7 +371,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 20776
+  m_CachedInstanceID: 23524
   m_Description: Controls the Player movement using the Vertical axis
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -686,7 +686,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1577372501}
     m_EventID: -10
-  m_CachedInstanceID: 20802
+  m_CachedInstanceID: 23550
   m_Description: Moves and changes the velocity of the ball when entering a trigger.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -972,7 +972,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 20808
+  m_CachedInstanceID: 23556
   m_Description: Controls the ball movement and updates the score on the GUI
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -999,7 +999,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1577372497}
     m_EventID: -10
-  m_CachedInstanceID: 20810
+  m_CachedInstanceID: 23558
   m_Description: Updates the score on the GUI. If the ball is on the left side then
     the A.I. has scored; otherwise the Player has scored.
   m_IgnoreTimeScale: 0
@@ -1436,7 +1436,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 20840
+  m_CachedInstanceID: 23588
   m_Description: The A.I. follows the y position of the ball.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1

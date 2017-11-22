@@ -1302,7 +1302,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 17154
+  m_CachedInstanceID: 20136
   m_Description: Player animation graph.
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -1327,7 +1327,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 17156
+  m_CachedInstanceID: 20138
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.EveryFrame
@@ -1444,7 +1444,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 857488319}
     m_EventID: 1472302340
-  m_CachedInstanceID: 17158
+  m_CachedInstanceID: 20140
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.CrossFadeAnimation
@@ -1517,7 +1517,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 857488318}
     m_EventID: 657209669
-  m_CachedInstanceID: 17160
+  m_CachedInstanceID: 20142
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.CrossFadeAnimation
@@ -2981,7 +2981,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 17338
+  m_CachedInstanceID: 20320
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.EveryFrame

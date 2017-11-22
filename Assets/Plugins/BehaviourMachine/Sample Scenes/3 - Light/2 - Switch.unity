@@ -360,7 +360,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 16782
+  m_CachedInstanceID: 19764
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.EveryFrame
@@ -688,7 +688,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 16810
+  m_CachedInstanceID: 19792
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -864,7 +864,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 16824
+  m_CachedInstanceID: 19806
   m_Description: Turn on/off the light when something enters the trigger.
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -918,7 +918,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 2131409176}
     m_EventID: -17
-  m_CachedInstanceID: 16828
+  m_CachedInstanceID: 19810
 --- !u!114 &2131409176
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -939,7 +939,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 2131409175}
     m_EventID: -10
-  m_CachedInstanceID: 16830
+  m_CachedInstanceID: 19812
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.SetEnabled

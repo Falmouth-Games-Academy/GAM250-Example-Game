@@ -252,7 +252,7 @@ MonoBehaviour:
     m_EventID: 176125172
   - m_Destination: {fileID: 160641606}
     m_EventID: 747217148
-  m_CachedInstanceID: 15500
+  m_CachedInstanceID: 18482
   m_Description: Shows the main menu with options to start a  new game, load a game
     or start a multiplayer game.
   m_IgnoreTimeScale: 0
@@ -439,7 +439,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 15504
+  m_CachedInstanceID: 18486
   m_Description: An example of a game menu with sub-menus.
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -466,7 +466,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 160641602}
     m_EventID: 1766432224
-  m_CachedInstanceID: 15506
+  m_CachedInstanceID: 18488
   m_Description: Menu for load a game with three options.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -653,7 +653,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 160641602}
     m_EventID: 1766432224
-  m_CachedInstanceID: 15508
+  m_CachedInstanceID: 18490
   m_Description: Shows fields for login and password and a button to connect. Does
     nothing, its just a menu example.
   m_IgnoreTimeScale: 0

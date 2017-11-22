@@ -210,7 +210,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19156
+  m_CachedInstanceID: 21904
   m_Description: Controls the movement of the player and changes the direction of
     the ball when it collides.
   m_IgnoreTimeScale: 0
@@ -438,7 +438,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19164
+  m_CachedInstanceID: 21912
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -738,7 +738,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19188
+  m_CachedInstanceID: 21936
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -989,7 +989,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19208
+  m_CachedInstanceID: 21956
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -1172,7 +1172,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19220
+  m_CachedInstanceID: 21968
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -1381,7 +1381,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19236
+  m_CachedInstanceID: 21984
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -1577,7 +1577,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19250
+  m_CachedInstanceID: 21998
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -1773,7 +1773,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19264
+  m_CachedInstanceID: 22012
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -1969,7 +1969,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19278
+  m_CachedInstanceID: 22026
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -2230,7 +2230,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19298
+  m_CachedInstanceID: 22046
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -2602,7 +2602,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 50, y: 80}
   m_Transitions: []
-  m_CachedInstanceID: 19324
+  m_CachedInstanceID: 22072
   m_Description: If the ball's position is beyond 15 units from the center, then place
     the ball in the center and wait one second.
   m_IgnoreTimeScale: 0
@@ -2782,7 +2782,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19330
+  m_CachedInstanceID: 22078
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -3089,7 +3089,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19356
+  m_CachedInstanceID: 22104
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -3285,7 +3285,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19370
+  m_CachedInstanceID: 22118
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -3481,7 +3481,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19384
+  m_CachedInstanceID: 22132
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -3677,7 +3677,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19398
+  m_CachedInstanceID: 22146
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -3873,7 +3873,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19412
+  m_CachedInstanceID: 22160
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -4069,7 +4069,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19426
+  m_CachedInstanceID: 22174
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -4265,7 +4265,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19440
+  m_CachedInstanceID: 22188
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -4509,7 +4509,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19460
+  m_CachedInstanceID: 22208
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -4705,7 +4705,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19474
+  m_CachedInstanceID: 22222
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -4983,7 +4983,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19498
+  m_CachedInstanceID: 22246
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -5179,7 +5179,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19512
+  m_CachedInstanceID: 22260
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -5375,7 +5375,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19526
+  m_CachedInstanceID: 22274
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -5571,7 +5571,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19540
+  m_CachedInstanceID: 22288
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -5767,7 +5767,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19554
+  m_CachedInstanceID: 22302
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -5963,7 +5963,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19568
+  m_CachedInstanceID: 22316
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -6159,7 +6159,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19582
+  m_CachedInstanceID: 22330
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -6355,7 +6355,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19596
+  m_CachedInstanceID: 22344
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -6551,7 +6551,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19610
+  m_CachedInstanceID: 22358
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -6775,7 +6775,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19628
+  m_CachedInstanceID: 22376
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -6971,7 +6971,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19642
+  m_CachedInstanceID: 22390
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -7167,7 +7167,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19656
+  m_CachedInstanceID: 22404
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -7363,7 +7363,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19670
+  m_CachedInstanceID: 22418
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -7723,7 +7723,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19704
+  m_CachedInstanceID: 22452
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -7970,7 +7970,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19724
+  m_CachedInstanceID: 22472
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -8115,7 +8115,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19732
+  m_CachedInstanceID: 22480
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -8311,7 +8311,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19746
+  m_CachedInstanceID: 22494
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -8507,7 +8507,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19760
+  m_CachedInstanceID: 22508
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -8703,7 +8703,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19774
+  m_CachedInstanceID: 22522
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -8899,7 +8899,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19788
+  m_CachedInstanceID: 22536
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -9095,7 +9095,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19802
+  m_CachedInstanceID: 22550
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -9422,7 +9422,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19832
+  m_CachedInstanceID: 22580
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0
@@ -9618,7 +9618,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 19846
+  m_CachedInstanceID: 22594
   m_Description: Destroys the object when the number of collisions is below or equals
     to zero
   m_IgnoreTimeScale: 0

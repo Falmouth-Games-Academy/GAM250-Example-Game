@@ -224,7 +224,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 14340
+  m_CachedInstanceID: 17322
   m_Description: If the Player enters on the trigger then the camera moves up.
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -283,7 +283,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 85309813}
     m_EventID: -19
-  m_CachedInstanceID: 14344
+  m_CachedInstanceID: 17326
   m_Description: Moves the camera using the diference between the camera and the player
     position in the y axis.
   m_IgnoreTimeScale: 0
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 85309810}
     m_EventID: -17
-  m_CachedInstanceID: 14350
+  m_CachedInstanceID: 17332
   m_Description: Check if the player is dead; if so, restart the game.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 14382
+  m_CachedInstanceID: 17364
   m_Description: A player controller that is always jumping!
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -1604,7 +1604,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 14452
+  m_CachedInstanceID: 17434
   m_Description: When the camera is above the "Next Y" variable a new platform is
     spawned.
   m_EnabledState: {fileID: 0}
@@ -1674,7 +1674,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1690205511}
     m_EventID: -10
-  m_CachedInstanceID: 14456
+  m_CachedInstanceID: 17438
   m_Description: Check if the variable "Pos Y" is greater than "Next Y".
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -1741,7 +1741,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1690205510}
     m_EventID: -10
-  m_CachedInstanceID: 14458
+  m_CachedInstanceID: 17440
   m_Description: Instantiate a new platform in a random position.
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1

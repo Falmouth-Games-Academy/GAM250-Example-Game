@@ -360,7 +360,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21036
+  m_CachedInstanceID: 23784
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.EveryFrame
@@ -688,7 +688,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21064
+  m_CachedInstanceID: 23812
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -864,7 +864,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 21078
+  m_CachedInstanceID: 23826
   m_Description: Changes the color of the light when something enters the trigger.
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -923,7 +923,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 2131409176}
     m_EventID: -17
-  m_CachedInstanceID: 21082
+  m_CachedInstanceID: 23830
 --- !u!114 &2131409176
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -944,7 +944,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 2131409175}
     m_EventID: -10
-  m_CachedInstanceID: 21084
+  m_CachedInstanceID: 23832
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.ColorRandom

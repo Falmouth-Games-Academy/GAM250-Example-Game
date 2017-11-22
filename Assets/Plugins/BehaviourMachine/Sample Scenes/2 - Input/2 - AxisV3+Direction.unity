@@ -294,7 +294,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 15724
+  m_CachedInstanceID: 18706
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.EveryFrame
@@ -608,7 +608,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 15750
+  m_CachedInstanceID: 18732
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1

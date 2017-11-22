@@ -247,7 +247,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 22046
+  m_CachedInstanceID: 24794
   m_Description: A simple FSM that draws a button using ActionNodes.
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 661587804}
     m_EventID: -10
-  m_CachedInstanceID: 22050
+  m_CachedInstanceID: 24798
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.EveryFrame
@@ -378,7 +378,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 661587803}
     m_EventID: -10
-  m_CachedInstanceID: 22052
+  m_CachedInstanceID: 24800
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.AudioPlayClipAtPoint

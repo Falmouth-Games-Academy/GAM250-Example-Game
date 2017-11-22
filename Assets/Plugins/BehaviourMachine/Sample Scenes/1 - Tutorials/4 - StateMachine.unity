@@ -296,7 +296,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 16600
+  m_CachedInstanceID: 19582
   m_Description: Changes color when clicked.
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1490446649}
     m_EventID: -14
-  m_CachedInstanceID: 16604
+  m_CachedInstanceID: 19586
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.EveryFrame
@@ -408,7 +408,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1490446648}
     m_EventID: -14
-  m_CachedInstanceID: 16606
+  m_CachedInstanceID: 19588
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.EveryFrame
@@ -726,7 +726,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1972008379}
     m_EventID: -10
-  m_CachedInstanceID: 16636
+  m_CachedInstanceID: 19618
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -856,7 +856,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 16640
+  m_CachedInstanceID: 19622
   m_Description: 
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -885,7 +885,7 @@ MonoBehaviour:
     m_EventID: -10
   - m_Destination: {fileID: 1972008376}
     m_EventID: 191206407
-  m_CachedInstanceID: 16642
+  m_CachedInstanceID: 19624
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -1040,7 +1040,7 @@ MonoBehaviour:
     m_EventID: -10
   - m_Destination: {fileID: 1972008379}
     m_EventID: 191206407
-  m_CachedInstanceID: 16644
+  m_CachedInstanceID: 19626
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -1211,7 +1211,7 @@ MonoBehaviour:
     m_EventID: -10
   - m_Destination: {fileID: 1972008380}
     m_EventID: 191206407
-  m_CachedInstanceID: 16646
+  m_CachedInstanceID: 19628
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -1332,7 +1332,7 @@ MonoBehaviour:
     m_EventID: -10
   - m_Destination: {fileID: 1972008381}
     m_EventID: 191206407
-  m_CachedInstanceID: 16648
+  m_CachedInstanceID: 19630
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -1501,7 +1501,7 @@ MonoBehaviour:
     m_EventID: -10
   - m_Destination: {fileID: 1972008382}
     m_EventID: 191206407
-  m_CachedInstanceID: 16650
+  m_CachedInstanceID: 19632
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -1676,7 +1676,7 @@ MonoBehaviour:
     m_EventID: -10
   - m_Destination: {fileID: 1972008385}
     m_EventID: 191206407
-  m_CachedInstanceID: 16652
+  m_CachedInstanceID: 19634
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -1844,7 +1844,7 @@ MonoBehaviour:
     m_EventID: -10
   - m_Destination: {fileID: 1972008383}
     m_EventID: 191206407
-  m_CachedInstanceID: 16654
+  m_CachedInstanceID: 19636
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -2036,7 +2036,7 @@ MonoBehaviour:
     m_EventID: -10
   - m_Destination: {fileID: 1972008384}
     m_EventID: 191206407
-  m_CachedInstanceID: 16656
+  m_CachedInstanceID: 19638
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -2157,7 +2157,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1972008386}
     m_EventID: 191206407
-  m_CachedInstanceID: 16658
+  m_CachedInstanceID: 19640
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1

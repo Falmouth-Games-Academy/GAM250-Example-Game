@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -379,10 +379,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5182bb72652f194494b06584fde1334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnData:
-  - {fileID: 11400000, guid: ff2194ccf30e4e7469755785b93b261a, type: 2}
-  - {fileID: 11400000, guid: ff2194ccf30e4e7469755785b93b261a, type: 2}
-  loopSpawning: 1
+  spawnData: []
+  loopSpawning: 0
   spawnPoints:
   - {fileID: 1997711194}
   - {fileID: 250962125}
@@ -1585,7 +1583,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: -74364
+  m_CachedInstanceID: 26946
   m_Description: 
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 0
@@ -1594,59 +1592,21 @@ MonoBehaviour:
     m_NodeTypes:
     - BehaviourMachine.OnEnable
     - BehaviourMachine.Update
-    - BehaviourMachine.Timer
-    - BehaviourMachine.Sequence
-    - MoveNode
-    - BehaviourMachine.Selector
-    - CheckRangeNode
-    - RotateTowards
-    - ShootNode
-    m_NodeTypeHash: 89ef821089ef8210c66b91a1fbd4a944ac5c3c3ffbd4a944689bd5d2c24af08186fed308
-    m_NodeFieldStartIndex: 0000000003000000060000000c0000000e0000001a0000001c00000021000000250000002d000000
-    m_BranchIndex: ffffffffffffffff01000000020000000300000003000000050000000500000005000000
-    m_UnityObjectValue:
-    - {fileID: 133396923}
-    - {fileID: 1165472262}
-    - {fileID: 1890193189}
-    - {fileID: 1231338995}
-    - {fileID: 1804918685}
-    - {fileID: 1804918687}
-    - {fileID: 1128348125}
-    - {fileID: 1804918687}
-    - {fileID: 1128348125}
-    - {fileID: 1804918687}
-    - {fileID: 1000012754407144, guid: 4f93878f0952a164a9d6560d4725399c, type: 2}
-    - {fileID: 802872190}
-    - {fileID: 863521282}
-    - {fileID: 1273446115}
-    m_IntValue: 010000000100000002000000010000000300000008000000090000000100000005000000040000000600000007000000
-    m_FloatValue:
-    - 2
-    - 2
-    - 0.2
-    - 12
-    - 0.5
+    m_NodeTypeHash: 89ef821089ef8210
+    m_NodeFieldStartIndex: 000000000300000006000000
+    m_BranchIndex: ffffffffffffffff
+    m_UnityObjectValue: []
+    m_IntValue: 01000000010000000200000001000000
+    m_FloatValue: []
     m_StringValue:
     - OnEnable
     - Update
-    - Timer
-    - BehaviourMachine.ConcreteFloatVar
-    - BehaviourMachine.FsmEvent
-    - Sequence
-    - MoveNode
-    - Selector
-    - CheckRangeNode
-    - RotateTowards
-    - ShootNode
     m_CurveValue: []
-    m_GenericFieldType:
-    - BehaviourMachine.ConcreteFloatVar
-    - UnityEngine.Transform
-    - UnityEngine.Transform
-    m_GenericFieldHash: 264ce8ef0000000000000000
-    m_GenericFieldSize: 010000000400000003000000
-    m_FieldIndex: 0000000000000000010000000200000001000000030000000400000002000000000000000000000003000000040000000500000005000000060000000600000001000000000000000100000002000000030000000400000001000000070000000200000005000000080000000700000009000000080000000600000007000000030000000a0000000900000008000000090000000b0000000a0000000a000000020000000b0000000c0000000d00000004000000
-    m_FieldType: 010000000200000005000000010000000200000005000000010000000200000010000000030000001100000011000000010000000200000001000000020000001f0000000f0000000f0000000f0000000f0000000f0000000300000005000000030000000f000000010000000200000001000000020000000f0000000f0000000300000001000000020000000f0000000f00000001000000020000000f0000001f0000000f0000000f0000000f00000003000000
+    m_GenericFieldType: []
+    m_GenericFieldHash: 
+    m_GenericFieldSize: 
+    m_FieldIndex: 000000000000000001000000020000000100000003000000
+    m_FieldType: 010000000200000005000000010000000200000005000000
     m_FieldPath:
     - instanceID
     - name
@@ -1654,45 +1614,6 @@ MonoBehaviour:
     - instanceID
     - name
     - enabled
-    - instanceID
-    - name
-    - intervalTime
-    - intervalTime.value
-    - storeCurrentTime
-    - timeOverEvent
-    - instanceID
-    - name
-    - instanceID
-    - name
-    - Waypoints
-    - Waypoints.data[0]
-    - Waypoints.data[1]
-    - Waypoints.data[2]
-    - Waypoints.data[3]
-    - characterController
-    - speed
-    - loopWaypoints
-    - waypointDetectionDistance
-    - bossTransform
-    - instanceID
-    - name
-    - instanceID
-    - name
-    - target
-    - boss
-    - detectionRange
-    - instanceID
-    - name
-    - player
-    - boss
-    - instanceID
-    - name
-    - bulletPrefab
-    - bulletSpawns
-    - bulletSpawns.data[0]
-    - bulletSpawns.data[1]
-    - bulletSpawns.data[2]
-    - fireCoolDown
 --- !u!114 &1804918689
 MonoBehaviour:
   m_ObjectHideFlags: 0

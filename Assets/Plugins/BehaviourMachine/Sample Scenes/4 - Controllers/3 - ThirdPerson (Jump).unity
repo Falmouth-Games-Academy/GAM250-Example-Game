@@ -1240,7 +1240,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 18472
+  m_CachedInstanceID: 21220
   m_Description: 'Controls the Player movement using the Axis variable. Stores the
     Player horizontal speed in the variable Speed.
 
@@ -1476,7 +1476,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 18478
+  m_CachedInstanceID: 21226
   m_Description: Player animation graph.
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -1503,7 +1503,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 857488319}
     m_EventID: -10
-  m_CachedInstanceID: 18480
+  m_CachedInstanceID: 21228
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.PlayAnimation
@@ -1567,7 +1567,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 857488316}
     m_EventID: 1838684881
-  m_CachedInstanceID: 18482
+  m_CachedInstanceID: 21230
   m_CanTransitionToSelf: 0
 --- !u!114 &857488318
 MonoBehaviour:
@@ -1589,7 +1589,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 857488319}
     m_EventID: 1472302340
-  m_CachedInstanceID: 18484
+  m_CachedInstanceID: 21232
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.CrossFadeAnimation
@@ -1662,7 +1662,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 857488318}
     m_EventID: 657209669
-  m_CachedInstanceID: 18486
+  m_CachedInstanceID: 21234
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.CrossFadeAnimation
@@ -3126,7 +3126,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 18664
+  m_CachedInstanceID: 21412
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.EveryFrame

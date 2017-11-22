@@ -255,7 +255,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 30, y: 70}
   m_Transitions: []
-  m_CachedInstanceID: 15844
+  m_CachedInstanceID: 18826
   m_Description: The player Controller
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
@@ -716,7 +716,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 15882
+  m_CachedInstanceID: 18864
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.EveryFrame

@@ -248,7 +248,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 18066
+  m_CachedInstanceID: 20814
   m_Description: Displays a timer
   m_EnabledState: {fileID: 0}
   m_LastEnabledState: {fileID: 0}
@@ -314,7 +314,7 @@ MonoBehaviour:
     m_EventID: -10
   - m_Destination: {fileID: 1860365210}
     m_EventID: 1217616423
-  m_CachedInstanceID: 18070
+  m_CachedInstanceID: 20818
   m_Description: Wait one seconds and then sends the event On Subtract. If Count is
     zero then send the event FINISHED.
   m_IgnoreTimeScale: 0
@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Transitions:
   - m_Destination: {fileID: 1860365209}
     m_EventID: -10
-  m_CachedInstanceID: 18072
+  m_CachedInstanceID: 20820
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.IntAdd
@@ -488,7 +488,7 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 40, y: 150}
   m_Transitions: []
-  m_CachedInstanceID: 18074
+  m_CachedInstanceID: 20822
   m_Description: Go!!
   m_IgnoreTimeScale: 0
   m_ResetStatusOnDisable: 1
