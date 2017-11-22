@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1583,30 +1583,68 @@ MonoBehaviour:
   m_HideScript: 1
   m_Position: {x: 0, y: 0}
   m_Transitions: []
-  m_CachedInstanceID: 26946
+  m_CachedInstanceID: -73928
   m_Description: 
   m_IgnoreTimeScale: 0
-  m_ResetStatusOnDisable: 0
+  m_ResetStatusOnDisable: 1
   m_EnabledStates: []
   m_NodeSerialization:
     m_NodeTypes:
     - BehaviourMachine.OnEnable
     - BehaviourMachine.Update
-    m_NodeTypeHash: 89ef821089ef8210
-    m_NodeFieldStartIndex: 000000000300000006000000
-    m_BranchIndex: ffffffffffffffff
-    m_UnityObjectValue: []
-    m_IntValue: 01000000010000000200000001000000
-    m_FloatValue: []
+    - BehaviourMachine.Selector
+    - BehaviourMachine.Sequence
+    - CheckRangeNode
+    - RotateTowardsTarget
+    - ShootNode
+    - BehaviourMachine.Sequence
+    - MoveNode
+    - BehaviourMachine.ConvertStatus
+    - CheckRangeNode
+    m_NodeTypeHash: 89ef821089ef8210fbd4a944fbd4a944602effb8d1283bfafbd4a944fbd4a9447c866c22aec8bc0d602effb8
+    m_NodeFieldStartIndex: 000000000300000006000000080000000a00000010000000150000001700000019000000250000002c00000032000000
+    m_BranchIndex: ffffffffffffffff010000000200000003000000030000000300000002000000070000000700000009000000
+    m_UnityObjectValue:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 133396923}
+    - {fileID: 1165472262}
+    - {fileID: 1890193189}
+    - {fileID: 1231338995}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_IntValue: 0100000001000000020000000100000006000000030000000b0000000400000005000000070000000a0000000100000009000000000000000200000001000000030000000400000008000000
+    m_FloatValue:
+    - 15
+    - 10
+    - 2
+    - 0.2
+    - 15
     m_StringValue:
     - OnEnable
     - Update
+    - Selector
+    - Sequence
+    - CheckRangeNode
+    - BehaviourMachine.FsmEvent
+    - RotateTowardsTarget
+    - ShootNode
+    - Sequence
+    - MoveNode
+    - ConvertStatus
+    - CheckRangeNode
+    - BehaviourMachine.FsmEvent
     m_CurveValue: []
-    m_GenericFieldType: []
-    m_GenericFieldHash: 
-    m_GenericFieldSize: 
-    m_FieldIndex: 000000000000000001000000020000000100000003000000
-    m_FieldType: 010000000200000005000000010000000200000005000000
+    m_GenericFieldType:
+    - UnityEngine.Transform
+    m_GenericFieldHash: 00000000
+    m_GenericFieldSize: 04000000
+    m_FieldIndex: 000000000000000001000000020000000100000003000000040000000200000005000000030000000600000004000000050000000000000001000000000000000700000006000000020000000300000001000000080000000700000009000000080000000a0000000900000004000000050000000000000006000000070000000800000009000000020000000b000000030000000c0000000a0000000d0000000e0000000f0000001000000011000000120000000b0000000c0000000a0000000b00000004000000
+    m_FieldType: 010000000200000005000000010000000200000005000000010000000200000001000000020000000100000002000000110000000f0000000f0000000300000001000000020000000f0000000f000000030000000100000002000000010000000200000001000000020000000f0000000f0000001f0000000f0000000f0000000f0000000f000000030000000500000003000000010000000200000004000000040000000400000004000000040000000100000002000000110000000f0000000f00000003000000
     m_FieldPath:
     - instanceID
     - name
@@ -1614,6 +1652,50 @@ MonoBehaviour:
     - instanceID
     - name
     - enabled
+    - instanceID
+    - name
+    - instanceID
+    - name
+    - instanceID
+    - name
+    - onSuccess
+    - targetTransform
+    - currentTransform
+    - detectionRange
+    - instanceID
+    - name
+    - targetTransform
+    - currentTransform
+    - rotateSpeed
+    - instanceID
+    - name
+    - instanceID
+    - name
+    - instanceID
+    - name
+    - currentTransform
+    - characterController
+    - Waypoints
+    - Waypoints.data[0]
+    - Waypoints.data[1]
+    - Waypoints.data[2]
+    - Waypoints.data[3]
+    - speed
+    - loopWaypoints
+    - waypointDetectionDistance
+    - instanceID
+    - name
+    - convertReadyTo
+    - convertSuccessTo
+    - convertFailureTo
+    - convertErrorTo
+    - convertRunningTo
+    - instanceID
+    - name
+    - onSuccess
+    - targetTransform
+    - currentTransform
+    - detectionRange
 --- !u!114 &1804918689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1622,7 +1704,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1804918683}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a7c963196035ad48b1fc8801c6c1586, type: 3}
+  m_Script: {fileID: 11500000, guid: 634db10235c0241d6ad43433a106016d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_FloatVars: []
@@ -1633,7 +1715,12 @@ MonoBehaviour:
   m_RectVars: []
   m_ColorVars: []
   m_QuaternionVars: []
-  m_GameObjectVars: []
+  m_GameObjectVars:
+  - m_ID: 1330503528
+    m_Name: Target
+    m_Blackboard: {fileID: 1804918689}
+    m_IsConstant: 0
+    value: {fileID: 1128348125}
   m_TextureVars: []
   m_MaterialVars: []
   m_ObjectVars: []

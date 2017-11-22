@@ -3,17 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using BehaviourMachine;
 
-public class CheckRangeNode : ActionNode
+public class CheckRangeNode : ConditionNode
 {
-    public GameObject target;
-    public Transform boss;
+    public Transform targetTransform;
+    public Transform currentTransform;
     public float detectionRange;
 
+    public override void Start()
+    {
+        targetTransform = blackboard.GetGameObjectVar("Target").transform;
+        currentTransform = blackboard.gameObject.transform;
+
+    }
     public override Status Update()
     {
-        Debug.Log("Checking Distance");
-        if (Vector3.Distance(boss.position,target.transform.position)<detectionRange)
+        if (Vector3.Distance(currentTransform.position, targetTransform.position)<detectionRange)
         {
+            Debug.Log("Found Player");
             return Status.Success;
         }
 

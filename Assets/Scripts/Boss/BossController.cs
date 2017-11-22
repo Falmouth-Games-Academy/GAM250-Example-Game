@@ -7,19 +7,10 @@ public class BossController : MonoBehaviour {
 
     public GameObject player;
 
-    public float detectionRange = 5.0f;
-
     public GameObject bulletPrefab;
     public Transform[] bulletSpawns;
     public float fireCoolDown = 0.5f;
     float currentTime = 0;
-
-    public Transform[] Waypoints;
-    public CharacterController characterController;
-    public float speed = 2.0f;
-    public bool loopWaypoints = true;
-    public float waypointDetectionDistance = 0.2f;
-    int currentWaypointIndex = 0;
 
     Blackboard bossBlackboard;
 
@@ -31,4 +22,21 @@ public class BossController : MonoBehaviour {
         bossBlackboard = GetComponent<Blackboard>();
     }
 
+    public bool Fire()
+    {
+        currentTime += Time.deltaTime;
+        if (currentTime > fireCoolDown)
+        {
+            foreach (Transform bulletSpawn in bulletSpawns)
+            {
+                Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.transform.rotation);
+                Debug.Log("Shoot");
+            }
+
+            currentTime = 0.0f;
+            return true;
+        }
+
+        return false;
+    }
 }

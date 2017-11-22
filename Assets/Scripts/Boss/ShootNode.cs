@@ -5,24 +5,17 @@ using BehaviourMachine;
 
 public class ShootNode : ActionNode
 {
-    public GameObject bulletPrefab;
-    public Transform[] bulletSpawns;
-    public float fireCoolDown = 0.5f;
-    float currentTime = 0;
+    BossController bossController;
+
+    public override void Start()
+    {
+        bossController = blackboard.gameObject.GetComponent<BossController>();
+    }
 
     public override Status Update()
     {
-        currentTime += Time.deltaTime;
-        if (currentTime > fireCoolDown)
-        {
-            foreach (Transform bulletSpawn in bulletSpawns)
-            {
-                //Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.transform.rotation);
-                Debug.Log("Shoot");
-            }
+        bossController.Fire();
 
-            currentTime = 0.0f;
-        }
         return Status.Success;
     }
 }
